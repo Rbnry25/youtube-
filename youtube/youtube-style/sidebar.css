@@ -1,0 +1,108 @@
+.sidebar {
+    position: fixed;
+    left:0;
+    bottom: 0;
+    top: 56px;
+    background-color: white;
+    width: 72px;
+    padding-top: 5px;
+}
+.sidebar-link {
+    height: 74px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.sidebar-link:hover {
+    background-color: rgba(220, 220, 220, 0.466);
+}
+.sidebar-link img {
+    height: 24px;
+    margin-bottom: 5px;
+}
+.sidebar-link i {
+    margin-bottom: 5px;
+}
+.sidebar-link div {
+    font-size: 10px;
+    height: 15px;
+}
+
+.sidebar2 {
+    position: fixed;
+    left: -297px;
+    bottom: 0;
+    top: 0px;
+    background-color: rgb(255, 255, 255);
+    width: 220px;
+    z-index: 300;
+    padding-top: 5px;
+    overflow-y: scroll;
+    transition: all 0.2s linear;
+}
+.sidebar-link2 {
+    height: 45px;
+    padding: 0 12px;
+    margin-left: 10px;
+    margin-bottom: 0px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: all 0.15s linear;
+}
+.sidebar-link2:hover {
+    background-color: rgba(219, 219, 219, 0.617);
+    border-radius: 15px;
+}
+.sidebar-link2 img {
+    height: 28px;
+    width: 28px;
+    border-radius: 14px;
+}
+.bx {
+    font-size: 27px;
+    font-weight: 100;
+}
+.l1 {
+    margin-top: 10px;
+    width: 170.953px;
+}
+.rightside {
+    margin-left: 15px;
+    font-size: 14px;
+}
+.b {
+    border-bottom: 1px solid rgba(220, 220, 220, 0.84);
+}
+.footer {
+    color: rgb(145, 145, 145);
+    padding: 15px 20px 10px 20px;
+}
+.info {
+    display: flex;
+    justify-content: center;
+    color: rgb(142, 142, 142);
+}
+.info>i {
+    padding: 7px;
+    cursor: pointer;
+}
+.bxl-facebook-circle:hover {
+    color: rgb(3, 70, 151);
+}
+.bxl-whatsapp:hover {
+    color: rgb(3, 151, 82);
+}
+.bxl-telegram:hover {
+    color: rgb(57, 134, 228);
+}
+.bxl-instagram:hover {
+    color: rgb(216, 71, 71);
+}
+@media (min-width: 1500px) {
+    .sidebar2 {
+        left: 0px;
+    }
+}
